@@ -9,7 +9,7 @@ public class Main {
   
 	 // Este bucle 'while' va a seguir ejecutándose hasta que el usuario elija la opción de salir (que es la opción 8).
 	  while (opcion != 8) {
-	      System.out.println("--- Menú ---");
+	      System.out.println("Menú");
 	      System.out.println("1. Buscar por nombre");
 	      System.out.println("2. Buscar por origen");
 	      System.out.println("3. Ordenar por precio (menor a mayor)");
@@ -21,7 +21,7 @@ public class Main {
 	      System.out.print("Seleccione una opción: ");
 	            
 	      opcion = scanner.nextInt();
-	      scanner.nextLine();  // Salto de línea
+	      scanner.nextLine();  
 	      
 	   // Aquí estamos comprobando la opción seleccionada por el usuario.
 	      if (opcion == 1) {  // Si elige la opción 1 (Buscar por nombre).
